@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sourcey.tools.ValetActivity">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardBackgroundColor="#AB23"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+          android:background="#AB23">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+
+                android:id="@+id/imageView4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_account_balance_wallet_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:text="Valet"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtValetAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (₹ 100 )"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/etAmount"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Amount"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/etCardNumber"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Card Number"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/etCVV"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Security Code"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/etPin"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter pin Code"
+                android:inputType="numberPassword"
+                android:maxLength="4" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:id="@+id/btnAddmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Money" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

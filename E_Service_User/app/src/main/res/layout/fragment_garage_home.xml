@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.tools.GarageHomeFragment">
+
+    <ListView
+        android:id="@+id/booking_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<LinearLayout
+    android:id="@+id/linearlayout"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:background="@drawable/sorry"
+    android:layout_height="match_parent"></LinearLayout>
+</FrameLayout>

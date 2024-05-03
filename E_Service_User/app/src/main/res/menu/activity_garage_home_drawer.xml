@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="New Request" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_local_car_wash_black_24dp"
+            android:title="View My Order" />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Payment History" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_local_car_wash_black_24dp"
+            android:title="View Tools" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Profile" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_garage"
+            android:icon="@drawable/ic_settings_input_component_black_24dp"
+            android:title="View Tools" />
+        <item
+            android:id="@+id/nav_book_service"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="View Bookings" />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Payment History" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Profile" />
+    </group>
+
+
+
+</menu>

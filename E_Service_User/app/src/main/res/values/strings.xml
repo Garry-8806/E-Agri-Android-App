@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E-Agri</string>
+    <string name="tips">Share OTP and Update the details</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_valet">Valet</string>
+    <string name="action_panic">Panic</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="rupee">₹</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_customer_home">View Tools</string>
+    <string name="title_activity_garage_home">New Bookings</string>
+    <string name="cost_per_hour">Cost Per Hour</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="add_tool_details">Add Tool Details</string>
+</resources>
